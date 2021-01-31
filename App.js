@@ -2,12 +2,17 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import WelcomeScreen from "./App/screens/welcomeScreen";
+import ViewImageScreen from "./App/screens/ViewImageScreen";
 
 export default function App() {
-  return <WelcomeScreen />;
+  return <ViewImageScreen />;
 }
 
-const styles = StyleSheet.create({
+const styles=StyleSheet.create({
+
+});
+
+/* const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "dodgerblue",
@@ -50,4 +55,4 @@ const styles = StyleSheet.create({
     fontFamily:'sans-serif',
     letterSpacing:1.2
   }
-});
+}); */
